@@ -1,0 +1,6 @@
+#codigo_qr img {
+    width: 200px; /* Ajusta el tamaño del código QR aquí */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
