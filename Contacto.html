@@ -10,13 +10,16 @@
        body {
             background-color: #f8f9fa; /* Color de fondo */
             color: #343a40; /* Color de texto principal */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente elegante */
+            font-size: 16px; /* Tamaño de fuente predeterminado */
         }
         .navbar {
             background-color: #212529; /* Color de fondo de la barra de navegación */
         }
         .navbar-brand {
-            font-size: 1.5rem; /* Tamaño de la fuente del logotipo */
+            font-size: 1.8rem; /* Tamaño de la fuente del logotipo */
             font-weight: bold; /* Peso de la fuente del logotipo */
+            color: #ffffff; /* Color del logotipo */
         }
         .offcanvas-body {
             background-color: #212529; /* Color de fondo del menú lateral */
@@ -43,27 +46,34 @@
             margin-top: -20px; /* Ajusta la distancia del logo desde arriba (número negativo para subirlo) */
             margin-left: 0; /* Mover el logo a la izquierda */
         }
+        p {
+            font-size: 18px; /* Tamaño de fuente del párrafo */
+            line-height: 1.6; /* Altura de línea del párrafo */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row mt-5"> </div>
+        <div class="row mt-5"></div>
         <div class="row mt-2">
             <div class="col">
                 <h1 class="text-center">Asesorías Académicas</h1>
-                <img src="https://fidelpperez2021.github.io/Asesorias.io/Prototipo_Logo_01.png" alt="Logo" class="logo">
-            <div>
-            </div>
-            </div>
-            <script src="./Procesos.js"></script>
-            <div class="container mt-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="https://fidelpperez2021.github.io/Asesorias.io/Prototipo_Logo_01.png" alt="Logo" class="logo"> 
+                    <div class="ml-3">
+                        <p>Las asesorías académicas son un servicio educativo que ofrece apoyo y orientación a estudiantes en diferentes áreas de estudio. Estas sesiones suelen ser dirigidas por profesionales o tutores expertos en la materia y están diseñadas para ayudar a los estudiantes a comprender mejor los conceptos, mejorar sus habilidades y alcanzar sus metas académicas. Las asesorías académicas pueden cubrir una amplia gama de temas, desde matemáticas y ciencias hasta idiomas y humanidades. Este servicio proporciona un ambiente de aprendizaje personalizado y adaptado a las necesidades individuales de cada estudiante, lo que les permite avanzar con confianza en su trayectoria educativa.</p>
                     </div>
                 </div>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         </div>
+        <script src="./Procesos.js"></script>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </div>
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
@@ -120,6 +130,7 @@
                         <li><a href="./Index.html">Home</a></li>
                         <li><a href="./Tutorias.html">Tutorias</a></li>
                         <li><a href="./Contacto.html">Contacto</a></li>
+                        <li><a href="./Aplicacion.html">Aplicacion movil</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -138,6 +149,5 @@
             </div>
         </div>
     </footer>
-</div>
 </body>
 </html>
